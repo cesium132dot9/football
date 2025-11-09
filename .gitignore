@@ -1,5 +1,6 @@
-bin\
-football_env\
-include\
-lib\
+bin/
+football_env/
+include/
+lib/
+.ipynb_checkpoints/
 pyvenv.cfg
