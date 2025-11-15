@@ -13,7 +13,7 @@ python -m venv $VENV_NAME
 python -m pip install --upgrade pip
 
 pip install pandas numpy scipy
-pip install "torch==2.8.0" "torchvision==0.23.0" "torchaudio==2.8.0" --index-url https://download.pytorch.org/whl/cpu
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
 pip install matplotlib seaborn plotly ipywidgets
 pip install jupyter notebook ipykernel
 python -m ipykernel install --user --name=$VENV_NAME --display-name="football venv"
