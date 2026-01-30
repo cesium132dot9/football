@@ -10,9 +10,9 @@ python -m venv $VENV_NAME
 
 & ".\$VENV_NAME\Scripts\Activate.ps1"
 
-python -m pip install --upgrade pip
+python -m pip install -U pip
 
-pip install pandas numpy scipy
+pip install pandas numpy scipy scikit-learn
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu130
 pip install matplotlib seaborn plotly ipywidgets
 pip install jupyter notebook ipykernel
